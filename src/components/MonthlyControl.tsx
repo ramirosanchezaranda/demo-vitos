@@ -188,16 +188,16 @@ export default function MonthlyControl({ movements }: Props) {
                 <CardHeader className="pb-2">
                   <CardTitle className="text-sm text-muted-foreground">Total Facturado</CardTitle>
                 </CardHeader>
-              <CardContent>
-                <div className="text-3xl font-bold text-blue-600">${stats.totalRevenue.toLocaleString()}</div>
-                <div className="text-sm text-muted-foreground">en ventas</div>
-              </CardContent>
-            </Card>
+                <CardContent>
+                  <div className="text-3xl font-bold text-blue-600">${stats.totalRevenue.toLocaleString()}</div>
+                  <div className="text-sm text-muted-foreground">en ventas</div>
+                </CardContent>
+              </Card>
             </Tooltip>
+          </div>
         </div>
-      </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Top 5 sabores */}
         <Card>
           <CardHeader>
