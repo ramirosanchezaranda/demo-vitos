@@ -287,5 +287,6 @@ export default function MonthlyControl({ movements }: Props) {
         </Card>
       </div>
     </div>
+    </div>
   );
 }
